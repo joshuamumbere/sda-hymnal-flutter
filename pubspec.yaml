@@ -1,0 +1,26 @@
+name: sda_hymnal
+description: >-
+  The complete Seventh-Day Adventist Hymnal for Flutter. Provides all 695
+  hymns with structured lyrics (verses and refrains), search by title or
+  number, ready to drop into any Flutter or Dart app.
+version: 0.0.1
+homepage: https://github.com/joshuamumbere/sda-hymnal-flutter
+repository: https://github.com/joshuamumbere/sda-hymnal-flutter
+issue_tracker: https://github.com/joshuamumbere/sda-hymnal-flutter/issues
+
+environment:
+  sdk: ^3.4.0
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/sda-hymnal-db.json
