@@ -1,3 +1,7 @@
+## 0.0.2
+
+- Prepared for first pub.dev release.
+
 ## 0.0.1
 
 - Initial release: complete SDA Hymnal, all 695 hymns.
