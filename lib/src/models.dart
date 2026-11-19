@@ -70,8 +70,7 @@ class Hymn {
   final List<LyricSection> lyrics;
 
   /// All lyric sections of type `"verse"`.
-  Iterable<LyricSection> get verses =>
-      lyrics.where((s) => s.type == 'verse');
+  Iterable<LyricSection> get verses => lyrics.where((s) => s.type == 'verse');
 
   /// All lyric sections of type `"refrain"`.
   Iterable<LyricSection> get refrains =>

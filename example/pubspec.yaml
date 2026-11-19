@@ -1,0 +1,18 @@
+name: sda_hymnal_example
+description: Example app demonstrating the sda_hymnal package.
+publish_to: none
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sda_hymnal:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
