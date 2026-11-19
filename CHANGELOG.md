@@ -1,3 +1,8 @@
+## 0.0.3
+
+- Updated package description for pub.dev.
+- Added example app.
+
 ## 0.0.2
 
 - Prepared for first pub.dev release.
